@@ -26,7 +26,7 @@ void FFinder::generateFileName(int year, int month)
 	fileNames.resize(number);
 	newFileNames.resize(number);
 	for (int i = 0; i < number; i++) {
-		string nameIncomplete = "Document-page-0";	// Complete file name should be Document-page-xxx
+		string nameIncomplete = "February-page-0";	// Complete file name should be Document-page-xxx
 		// construct string for file name 
 		if (i < 9) { 
 			nameIncomplete.append("0").append(to_string(i+1));
